@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Aquí está el título -->
+    <title>Minecraft wiki edition</title>
+</head>
+<body>
+    <div class="fondo">
+        <!-- Con esto podremos navegar entre páginas -->
+        <nav class="menu"> 
+            <a href="Seleccion.html"><button class="boton">Inicio</button></a>
+            <a href="Registrarse.html"><button class="boton">Registrarse</button></a>  
+            <a href="https://es.wikipedia.org/wiki/Markus_Persson"><button class="boton">Información del creador de minecraft</button></a>   
+            <div class="boton_abajo">
+                <!-- Con este botón pondremos música -->
+                <button id="musica"; class="musica">Iniciar música</button>
+                <audio id="audio" src="../musica/index/hal3.ogg"></audio>
+                <!-- Aquí está un script que pondrá música -->
+                <script>
+                    const musica = document.getElementById('musica');
+                    const audio = document.getElementById('audio');
+            
+                    musica.addEventListener('click', () => {
+                        if (audio.paused) {
+                            audio.play();
+                            musica.textContent = "Parar música";
+                        } else {
+                            audio.pause();
+                            musica.textContent = "Iniciar música";
+                        }
+                    });
+                </script>
+                <!-- Este botón redige a una página externa -->
+                <a href="https://www.minecraft.net/es-es"><button class="boton2">Página oficial de Minecraft</button></a>  
+            </div>                  
+        </nav>
+    </div>
+</body>
+</div>
+</html>

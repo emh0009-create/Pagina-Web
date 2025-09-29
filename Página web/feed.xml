@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Inicio Minecraft Wiki</title>
+        <link></link>
+        <description>El inicio de la wiki de Minecraft para aprender lo básico</description>
+        <language>es</language>    
+    <item>
+        <title>Página principal de Minecraft Wiki</title>
+        <link></link>
+        <description>En el inicio hay distintos botones que te llevan a la wiki del creados original, a la versión de navegador y por último puedes poner música en la página.</description>
+    </item>
+    <item>
+        <title>Guía de Supervivencia</title>
+        <link></link>
+        <description>Guía para poder sobrevivir la primera noche.</description>
+      </item>  
+      <item>
+        <title>Guía de Pociones</title>
+        <link></link>
+        <description>Guía sobre las pociones de Minecraft, desde una página implementada.</description>
+      </item>
+      <item>
+        <title>Guía de mobs</title>
+        <link></link>
+        <description>Guía sobre las entidades existentes del juego, con su vida y daño.</description>
+      </item>
+      <item>
+        <title>Selección</title>
+        <link></link>
+        <description>Selecciona entre las distintas guías.</description>
+      </item>
+      <item>
+        <title>Registrarse</title>
+        <link></link>
+        <description>Rellena la información necesaria para poder registrarte</description>
+      </item>
+    </channel>
+</rss>
